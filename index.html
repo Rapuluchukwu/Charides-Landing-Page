@@ -14,8 +14,7 @@
     <header id="main-header">
         <div class="header-container">
             <div class="logo">
-                <img src="" alt="Charides Logo">
-                <p>CHARIDES</p>
+                <img src="assets/images/Logo1.jpg" alt="Charides Logo">
             </div>
             <nav class="nav">
                 <a href="#" class="language-toggle">EN</a>
@@ -48,7 +47,7 @@
             <div class="card">
                 <p class="card-title">Rides</p>
                 <div class="card-img-container">
-                    <img src="" alt="Ride Service" class="card-img">
+                    <img src="/assets/images/Order-for-a-ride.jpg" alt="Ride Service" class="card-img">
                     <p class="card-desc">Order for a ride</p>
                     <button class="card-btn">Get Started</button>
                 </div>
@@ -56,7 +55,7 @@
             <div class="card">
                 <p class="card-title">Rentals</p>
                 <div class="card-img-container">
-                    <img src="" alt="Car Rental" class="card-img">
+                    <img src="assets/images/Get-a-car.jpg" alt="Car Rental" class="card-img">
                     <p class="card-desc">Get a car</p>
                     <button class="card-btn">Get Started</button>
                 </div>
@@ -64,13 +63,15 @@
             <div class="card">
                 <p class="card-title">Courier</p>
                 <div class="card-img-container">
-                    <img src="" alt="Courier Service" class="card-img">
+                    <img src="/assets/images/Let’s-run-errands.jpg" alt="Courier Service" class="card-img">
                     <p class="card-desc">Let's run errands</p>
                     <button class="card-btn">Get Started</button>
                 </div>
             </div>
         </div>
-        <img src="assets/images/back-seat-passenger2.jpg" alt="a man in the back seat of a car looking outside" class="service-image">
+        <div class="service-image">
+            <img src="assets/images/back-seat-passenger2.jpg" alt="a man in the back seat of a car looking outside">
+        </div>
     </section>
 
     <!-- About Us -->
@@ -88,88 +89,68 @@
     </section>
 
     <!-- Booking Section -->
-    <section class="booking">
+    <section id="booking">
         <div class="booking-content">
             <h2>Book a ride <br> ahead with us.</h2>
             <p>Getting ready for a trip? Book a ride with us in advance for <br>
                 convenient airport transfers, important meetings, or any occasion <br>
                 that require spunctuality. Simply enter your details and secure your <br>
                 ride up to 60 days ahead.</p>
-            <button class="btn">Get Started</button>
+            <button class="cta-btn">Get Started</button>
         </div>
     </section>
 
     <!-- Download the app section1 -->
-    <section class="download">
+    <section id="download">
         <div>
             <h2>Enjoy ride, <br> enjoy luxury.</h2>
-            <button class="btn">Download the app</button>
+            <button class="cta-btn">Download the app</button>
         </div>
     </section>
 
     <!-- Registration Form -->
-    <section class="register">
-        <h2>Register with us</h2>
+    <section id="register">
+        <h2 class="section-title">Register with us</h2>
         <form id="registerForm">
             <input type="text" placeholder="Name" required>
             <input type="email" placeholder="Email" required>
             <input type="tel" placeholder="+234" required> <span></span>
             <input type="text" placeholder="Location" required>
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="register-btn">Submit</button>
         </form>
     </section>
 
-    <!-- Download App section2 -->
-    <section class="download">
-        <h2>Scan to download app</h2>
+    <!-- Scan QR Code -->
+    <section id="qr-code">
+        <div class="qr-image-container">
+            <h2>Scan to download app</h2>
+          <img src="assets/images/Scan-me.jpg" alt="QR Code" class="top-image"/>
+        </div>        
     </section>
 
-
     <!-- Footer -->
-    <footer class="footer">
-        <div class="header">
-            <div class="logo"> <img src="" alt="Charides Logo">
-                <p>Charides</p>
+    <footer id="charides-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="assets/images/Logo1.jpg" alt="Charides Logo">
             </div>
-            <div>
-                <div>
-                    <ul>
-                        <a href="">
-                            <li>About us</li>
-                        </a>
-                        <a href="">
-                            <li>Company</li>
-                        </a>
-                        <a href="">
-                            <li> Contact</li>
-                        </a>
-                        <a href="">
-                            <li>Brand guidlines</li>
-                        </a>
-                    </ul>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>About us</h4>
+                    <a href="#">Company</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Brand guidelines</a>
                 </div>
-
-                <div>
-                    <ul>
-                        <a href="">
-                            <li>Our services</li>
-                        </a>
-                        <a href="">
-                            <li>Rides</li>
-                        </a>
-                        <a href="">
-                            <li>Rentals</li>
-                        </a>
-                        <a href="">
-                            <li> Courier</li>
-                        </a>
-                    </ul>
+                <div class="footer-column">
+                    <h4>Our services</h4>
+                    <a href="#">Rides</a>
+                    <a href="#">Rentals</a>
+                    <a href="#">Courier</a>
                 </div>
             </div>
-
-            <div><a href="">Get the Charides app</a></div>
+            <div class="footer-app">
+                <a href="#">Get the Charides app</a>
+            </div>
+        </div>
     </footer>
-
-</body>
-
-</html>
+    
